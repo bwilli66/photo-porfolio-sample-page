@@ -1,0 +1,178 @@
+.hero {
+  font-family: "Roboto", serif;
+  text-align: center;
+  min-height: 800px;
+  background-size: cover;
+  padding: 0px 0px 50px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero h2 {
+margin: 100px 0px 50px 0;
+font-size: 40px;
+line-height: 40px;
+}
+
+#intro.hero h1, #intro.hero h5{
+  color: #FFF;
+  text-shadow: 0px 5px 5px rgba(0,0,0,.25);
+}
+
+#intro h5{
+  margin: 0px 0px 20px 0px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.hero h1{
+  line-height: 55px;
+  font-size: 72px;
+}
+
+.cta {
+  background-color: #000;
+  color: #FFF;
+  padding: 0px;
+  width: 180px;
+  font-size: 18px;
+  line-height: 50px;
+  border: 0px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cta:hover {
+  background-color: #00CFFF;
+}
+
+#about {
+  min-height: 0px;
+}
+
+.left-col {
+  color: #00E2AC;
+  padding: 20px;
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.right-col {
+  padding: 20px;
+  text-align: left;
+}
+.left-col h2 {
+  margin: 0px;
+  font-size: 60px;
+  font-weight: 700px;
+  line-height: 55px;
+}
+
+.right-col h5 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+#gallery {
+  background-color: #EEFDF9;
+  padding: 0px;
+  margin: 0px;
+}
+
+#gallery .col-md-4 {
+  overflow: hidden;
+  padding: 0px 5px 10px 5px;
+}
+
+#gallery .col-md-4 img {
+  height: 100%;
+  max-width: 390;
+  max-height: 380px
+}
+
+#bridge {
+  background-image: url("../img/bridge.jpg");
+  width: 100%;
+}
+
+#contact {
+}
+
+#contact p {
+  font-size: 24px;
+  margin: 0px 0px 40px 0px;
+  max-width: 740:
+}
+
+#social {
+  padding: 20px;
+}
+
+#social a {
+  margin: 0px 0px 0px 10px;
+  text-decoration: none;
+}
+
+#social a:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+#social img {
+  height: 20px;
+}
+
+#footer {
+  height: 40px;
+  margin: 0px 10% 150px 10%;
+  display: flex;
+  align-items: center;
+}
+
+#footer a {
+  color: #000;
+  font-size: 16px;
+  line-height: 40px;
+  padding: 0px;
+  margin: 0px 20px 0px 5px;
+}
+
+#footer .footer-item {
+  flex: 1;
+  max-width: 100px;
+}
+
+#copyright {
+  margin-left: auto;
+  color: #00E2AC;
+}
+
+
+@media screen and (max-width: 480px) {
+  #intro {
+    min-height: 640px;
+  }
+
+  .left-col h2 {
+    font-size: 42px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .row {
+    width: 100%;
+  }
+
+  .col-md-4 {
+    width: 100%;
+  }
+
+  .col-md-4 img{
+    max-width: 992px;
+    max-height: 900px;
+    width: 100%;
+  }
+}
